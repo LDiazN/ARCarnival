@@ -11,7 +11,6 @@ using System;
 [RequireComponent(typeof(PlatePooler))]
 public class PlateSpawner : MonoBehaviour
 {
-
     /// <summary>
     /// Event triggered whenever a new plate is spawned
     /// </summary>
@@ -106,6 +105,11 @@ public class PlateSpawner : MonoBehaviour
     public bool IsSpawning { get => _isSpawning; }
 
     /// <summary>
+    /// Used to manage running coroutine
+    /// </summary>
+    private Coroutine _spawnCoroutine;
+
+    /// <summary>
     /// A plane, formed by its 3 basis, you can use them to 
     /// compute a point or vector inside the plane 
     /// </summary>
@@ -137,7 +141,8 @@ public class PlateSpawner : MonoBehaviour
     {
         // Init object pooler
         _platePooler = GetComponent<PlatePooler>();
-        Invoke("StartSpawning",3f);
+        if (_startSpawning)
+            Invoke("StartSpawning", 3f);
         // StartSpawning(); // DEBUG ONLY, SHOULD USE SIGNAL TO TRIGGER SPAWNING
     }
 
@@ -155,7 +160,7 @@ public class PlateSpawner : MonoBehaviour
         if (!_isSpawning)
         {
             _isSpawning = true;
-            StartCoroutine(Spawning());
+            _spawnCoroutine = StartCoroutine(Spawning());
         }
     }
     
@@ -167,7 +172,8 @@ public class PlateSpawner : MonoBehaviour
         if (!_isSpawning) return;
 
         _isSpawning = false;
-        StopCoroutine("Spawning");
+        StopCoroutine(_spawnCoroutine);
+        _spawnCoroutine = null;
     }
 
     /// <summary>
@@ -177,7 +183,8 @@ public class PlateSpawner : MonoBehaviour
     {
         while (true)
         {
-            SpawnPlate();
+            if(_isSpawning)
+                SpawnPlate();
             yield return new WaitForSeconds(UnityEngine.Random.Range(_minTimeBetweenSpawns, _maxTimeBetweenSpawns));
         }
     }

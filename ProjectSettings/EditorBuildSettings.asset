@@ -20,19 +20,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestScenes/Final.unity
     guid: f00117b519138304386963c5b7cc89b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalScene/Game.unity
     guid: decb09ff28de1fe4a9b9bfbe14909193
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScenes/TestFullSceneLogic.unity
     guid: 63c6f7d56c3de7c4bb2987c463ceabb2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalScene/PauseGame.unity
     guid: 9e1f41550780b3346ad6725f2dd5a48d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalScene/FinalScore.unity
     guid: 91924764e97f8ab4594593d12e8b1a37
   - enabled: 0
     path: Assets/Scenes/TestScenes/TestFullScene.unity
     guid: b92d18862f6663b419a8a14fa900777b
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: fbf5b3365f4276d4e8e691c75af64082
+  - enabled: 1
+    path: Assets/Scenes/InfiniteMode.unity
+    guid: b107861cabec6b640a4c4430b63ad9ee
   m_configObjects: {}

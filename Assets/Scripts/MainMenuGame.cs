@@ -4,23 +4,24 @@ using UnityEngine;
 using Vuforia;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Simple class used to manage actions by the buttons in the main menu
+/// </summary>
+
 public class MainMenuGame : MonoBehaviour
 {
+    [Tooltip("Scene asset of infinite mode")]
+    [SerializeField]
+    private string _infiniteModeSceneName = "InfiniteMode";
 
-    // Update is called once per frame
-    void Update()
+    public void PlayInfiniteMode()
     {
-
-    }
-
-    public void PlayGame()
-    {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(_infiniteModeSceneName);
     }
 
     public void QuitGame()
     {
-        SceneManager.LoadScene(0);
+        Application.Quit();
     }
 
     public void StopGame()
