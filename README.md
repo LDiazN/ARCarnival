@@ -1,5 +1,8 @@
 # ARCarnival
 
+<p align="center">
+   <img src="img/arcarnival_banner.jpg" alt="AR Carnival Main Menu" style="center"/>
+</p>
 
 A simple AR game made with Unity and [Vuforia](https://developer.vuforia.com/#)! Plates spawn on a table, shoot at them with your toy gun to earn points!
 
