@@ -31,7 +31,19 @@ As I mentioned earlier, to reload your gun, you simply need to take it off the s
 |-------------------|-----------------------|
 | ![Reloading Example](https://user-images.githubusercontent.com/41093870/231807635-e27f9982-1d4d-4e04-92a8-2e823b507638.gif) | ![Non-reload example](https://user-images.githubusercontent.com/41093870/231807746-b272cf27-8ba8-4ae8-9eb4-4fd51d520292.gif) |
 
+## Table tracking
 
+As soon as the table marker becomes trackable, plates will spawn. Additionally, I have added a small indicator in the top right corner that will appear when the table is visible. This provides users with feedback in situations where tracking may not be optimal.
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/41093870/231814340-c3356f20-61f9-4929-886b-5ac4109d1191.gif" alt="Example table tracking" border="10" />
+</p>
 
+## A better look at the AR Gun Marker
+
+Here, we can take a closer look at my experiment with the ruler-attached marker:
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/41093870/231816066-12320aba-8f83-4edb-aa02-662868ff8e3e.gif" alt="Closer look to my AR Gun" border="10" />
+</p>
 
