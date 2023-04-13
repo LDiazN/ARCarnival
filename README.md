@@ -17,6 +17,6 @@ The 3D models were also made by myself with [blockbench](https://www.blockbench.
 Full gameplay (Click to watch in YouTube):
 <p align="center">
 <a href="https://www.youtube.com/watch?v=gGf-r-gn8gM" target="_blank" align="center">
- <img src="https://i.ytimg.com/an_webp/gGf-r-gn8gM/mqdefault_6s.webp?du=3000&sqp=CKH-3aEG&rs=AOn4CLAJYhutk16GTxABHYfanXqAaebpPQ" alt="Watch the gameplay video in YouTube" border="10" width="500"/>
+ <img src="http://i1.ytimg.com/vi/gGf-r-gn8gM/0.jpg" alt="Watch the gameplay video in YouTube" border="10" />
 </a>
 </p>
