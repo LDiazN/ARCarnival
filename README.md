@@ -14,7 +14,9 @@ The 3D models were also made by myself with [blockbench](https://www.blockbench.
 
 # Samples 
 
-Full gameplay (Click to watch in YouTube):
+In this section I will show up some samples of the game, so you can see how it works!
+
+## Full gameplay (Click to watch in YouTube):
 <p align="center">
 <a href="https://www.youtube.com/watch?v=gGf-r-gn8gM" target="_blank" align="center">
  <img src="http://i1.ytimg.com/vi/gGf-r-gn8gM/0.jpg" alt="Watch the gameplay video in YouTube" border="10" />
