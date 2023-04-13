@@ -22,3 +22,16 @@ In this section I will show up some samples of the game, so you can see how it w
  <img src="http://i1.ytimg.com/vi/gGf-r-gn8gM/0.jpg" alt="Watch the gameplay video in YouTube" border="10" />
 </a>
 </p>
+
+## Reloading
+
+As I said before, to reload you just need to take the gun off the screen for a moment. It won't reload if you take it off for a long time, so that it's also possible to save ammo!
+
+| Reloading Example | Non-Reloading Example |
+|-------------------|-----------------------|
+| ![Reloading Example](https://user-images.githubusercontent.com/41093870/231807635-e27f9982-1d4d-4e04-92a8-2e823b507638.gif) | ![Non-reload example](https://user-images.githubusercontent.com/41093870/231807746-b272cf27-8ba8-4ae8-9eb4-4fd51d520292.gif) |
+
+
+
+
+
