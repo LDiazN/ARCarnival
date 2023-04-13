@@ -47,3 +47,12 @@ Here, we can take a closer look at my experiment with the ruler-attached marker:
  <img src="https://user-images.githubusercontent.com/41093870/231816066-12320aba-8f83-4edb-aa02-662868ff8e3e.gif" alt="Closer look to my AR Gun" border="10" />
 </p>
 
+## Plates Disappear
+
+When you hit a plate, it will disappear. Originally I wanted to make it a time based game but it was kind of fun to just sit there and try to hit as many plates as you can or even in the table, so I changed it for an infinite mode instead.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/41093870/231821263-135cc200-be20-40f1-8560-411bcf8b735b.gif" alt="A shot hitting a plate" border="10" />
+</p>
+
+
