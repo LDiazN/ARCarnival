@@ -49,7 +49,7 @@ Here, we can take a closer look at my experiment with the ruler-attached marker:
 
 ## Plates Disappear
 
-When you hit a plate, it will disappear. Originally I wanted to make it a time based game but it was kind of fun to just sit there and try to hit as many plates as you can or even in the table, so I changed it for an infinite mode instead.
+When you hit a plate, it will disappear. Originally, I had intended to create a time-based game. However, during development, I found that it was more enjoyable to allow players to hit as many plates as possible without any time constraints. Therefore, I changed the game to an infinite mode instead, where players can continuously hit plates, even on the table surface.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/41093870/231821263-135cc200-be20-40f1-8560-411bcf8b735b.gif" alt="A shot hitting a plate" border="10" />
