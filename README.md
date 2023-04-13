@@ -25,7 +25,7 @@ In this section I will show up some samples of the game, so you can see how it w
 
 ## Reloading
 
-As I said before, to reload you just need to take the gun off the screen for a moment. It won't reload if you take it off for a long time, so that it's also possible to save ammo!
+As I mentioned earlier, to reload your gun, you simply need to take it off the screen for a moment. However, if you leave it off the screen for too long, it won't reload. This means that you can also save ammo. Additionally, it's important to note that the color of the highlights on the gun indicates how many shots you have left.
 
 | Reloading Example | Non-Reloading Example |
 |-------------------|-----------------------|
